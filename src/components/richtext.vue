@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      url: process.env.VUE_APP_BASE_API + '/api/public/uploadFile',
+      url: process.env.VUE_APP_BASE_API + '/api/upload-file/',
       content: null,
       // 富文本编辑器配置
       editorOption: {

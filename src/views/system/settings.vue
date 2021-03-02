@@ -40,7 +40,7 @@ export default {
   },
   data() {
     return {
-      url: process.env.VUE_APP_BASE_API + '/api/public/uploadFile',
+      url: process.env.VUE_APP_BASE_API + '/api/upload-file/',
       ruleForm: {
         name: this.$store.state.system.info.name,
         logo: this.$store.state.system.info.logo,

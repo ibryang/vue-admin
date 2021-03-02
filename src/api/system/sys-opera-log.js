@@ -11,7 +11,7 @@ export function cleanOperlog() {
 // 查询SysOperlog列表
 export function listSysOperlog(query) {
   return request({
-    url: '/api/sys-opera-log',
+    url: '/api/opera-log/',
     method: 'get',
     params: query
   })

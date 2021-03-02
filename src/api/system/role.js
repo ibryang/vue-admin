@@ -3,7 +3,7 @@ import request from '@/utils/request'
 // 查询角色列表
 export function listRole(query) {
   return request({
-    url: '/api/rolelist',
+    url: '/api/role-list/',
     method: 'get',
     params: query
   })
@@ -20,7 +20,7 @@ export function getRole(roleId) {
 // 新增角色
 export function addRole(data) {
   return request({
-    url: '/api/role',
+    url: '/api/role/',
     method: 'post',
     data: data
   })
@@ -29,7 +29,7 @@ export function addRole(data) {
 // 修改角色
 export function updateRole(data) {
   return request({
-    url: '/api/role',
+    url: '/api/role/',
     method: 'put',
     data: data
   })
@@ -38,7 +38,7 @@ export function updateRole(data) {
 // 角色数据权限
 export function dataScope(data) {
   return request({
-    url: '/api/roledatascope',
+    url: '/api/role-data-scope/',
     method: 'put',
     data: data
   })
@@ -47,7 +47,7 @@ export function dataScope(data) {
 // 角色状态修改
 export function changeRoleStatus(data) {
   return request({
-    url: '/api/role',
+    url: '/api/role/',
     method: 'put',
     data: data
   })
@@ -70,7 +70,7 @@ export function getListrole(id) {
 
 export function getRoutes() {
   return request({
-    url: '/api/menurole',
+    url: '/api/menu-role/',
     method: 'get'
   })
 }

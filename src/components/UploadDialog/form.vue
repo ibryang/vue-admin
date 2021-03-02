@@ -48,7 +48,7 @@ export default {
   name: 'UploadForm',
   data() {
     return {
-      url: process.env.VUE_APP_BASE_API + '/api/public/uploadFile',
+      url: process.env.VUE_APP_BASE_API + '/api/upload-file/',
       activeTab: '1',
       form: {
         dataSource: '1',
